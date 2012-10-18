@@ -10,7 +10,7 @@ int main(void)
 		sum += temp;
 		if (no_of_temps == 1) {
 			high_temp = temp;
-			low_temp   = temp;
+			low_temp  = temp;
 		}
 		if (temp > high_temp) high_temp = temp;
 		if (temp < low_temp)  low_temp  = temp;
